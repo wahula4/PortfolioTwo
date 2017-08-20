@@ -1,1 +1,180 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
 
+body {
+  /* Margin bottom by footer height */
+  color: white;
+  background-color: black;
+  margin-bottom: 60px;
+  font-family: 'Open Sans', sans-serif;
+  /*background: url('../images/denver-skyline.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  color: white;
+  background-color: black;
+}
+
+nav {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: black;
+  color: white;
+}
+a {
+  color: white;
+}
+
+.social {
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+}
+
+.social:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+ }
+
+  /*HOME*/
+ .skills {
+   color: white
+ }
+ .skills-tabs {
+   background-color: black;
+ }
+
+ .item:hover p.new-label span{
+   display: none;
+ }
+ .item:hover p.new-label:before{
+   content: 'Hola,';
+ }
+
+
+ /*WORK PAGE*/
+ .panel {
+   color: black;
+   overflow: hidden;
+   margin-bottom: 20px;
+   border: 0;
+ }
+
+ .btn-primary {
+   margin-top: 5px;
+ }
+
+ img {
+   max-width: 100%;
+   max-height: 100%;
+   position: relative;
+ }
+
+.gallery {
+     position: relative;
+		 padding: 0;
+		 margin: 0;
+		 text-align: center;
+	}
+
+	.gallery-image{
+    cursor:pointer;
+		position: relative;
+		display: block;
+	}
+
+  .gallery-image:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -moz-transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+  }
+
+	.gallery-text{
+	    position: absolute;
+	    top: 0; right: 0;
+	    bottom: 0; left: 0;
+	    text-align: center;
+	    background-color: rgba(0,0,0,0.8);
+	    opacity: 0;
+	    -webkit-transition: opacity 0.6s;
+	    -moz-transition: opacity 0.6s;
+	    transition: opacity 0.6s;
+      vertical-align:middle;
+      line-height: 200px;
+	}
+
+	.gallery-text:hover{
+	    opacity: 1;
+	}
+
+	.gallery-text h3{
+	    color: white;
+	    display: inline-table;
+      vertical-align:middle;
+      line-height:100%;
+	}
+
+  .work {
+    font-size: 100px;
+    margin: 30px 0;
+  }
+
+  .panel-body {
+    background: silver;
+  }
+
+  /*CONTACT*/
+  .fa {
+    margin-right: 10px;
+  }
+
+  .hello {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    margin-top: 50px;
+  }
+
+  a:hover{
+    text-decoration: none;
+  }
+
+  .talk h1 {
+    font-size: 75px;
+    -webkit-transition: all .3s ease; /* Safari and Chrome */
+    	-moz-transition: all .3s ease; /* Firefox */
+    	-o-transition: all .3s ease; /* IE 9 */
+    	-ms-transition: all .3s ease; /* Opera */
+    	transition: all .3s ease;
+  }
+
+  .talk:hover h1.new-label span{
+    display: none;
+  }
+  .talk:hover h1.new-label:before{
+    content: 'Very Soon';
+    -webkit-transition: all .3s ease; /* Safari and Chrome */
+    	-moz-transition: all .3s ease; /* Firefox */
+    	-o-transition: all .3s ease; /* IE 9 */
+    	-ms-transition: all .3s ease; /* Opera */
+    	transition: all .3s ease;
+  }
