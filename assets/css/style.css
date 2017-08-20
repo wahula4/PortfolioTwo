@@ -54,11 +54,17 @@ a {
  }
 
   /*HOME*/
+  .homepage {
+   background: url('../images/jeremy-thomas-172578.jpg') no-repeat center center fixed;
+   background-size: cover;
+ }
+
  .skills {
    color: white
  }
- .skills-tabs {
-   background-color: black;
+
+ .index {
+   margin-top: 25%;
  }
 
  .item:hover p.new-label span{
@@ -79,6 +85,7 @@ a {
 
  .btn-primary {
    margin-top: 5px;
+   font-size: 13px;
  }
 
  img {
@@ -141,6 +148,13 @@ a {
 
   .panel-body {
     background: silver;
+    padding-bottom: 10px;
+  }
+
+  .panel-text {
+    padding: 15px 15px 5px 15px;
+    font-size: 13px;
+    margin-bottom: 0;
   }
 
   /*CONTACT*/
