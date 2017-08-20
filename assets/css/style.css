@@ -11,11 +11,6 @@ body {
   background-color: black;
   margin-bottom: 60px;
   font-family: 'Open Sans', sans-serif;
-  /*background: url('../images/denver-skyline.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
 }
 
 .footer {
@@ -27,6 +22,7 @@ body {
   line-height: 60px; /* Vertically center the text there */
   color: white;
   background-color: black;
+  opacity: .8;
 }
 
 nav {
@@ -34,6 +30,7 @@ nav {
   background-color: black;
   color: white;
 }
+
 a {
   color: white;
 }
@@ -55,7 +52,7 @@ a {
 
   /*HOME*/
   .homepage {
-   background: url('../images/jeremy-thomas-172578.jpg') no-repeat center center fixed;
+   background: url('../images/emile-perron-190221.jpg') no-repeat center center fixed;
    background-size: cover;
  }
 
