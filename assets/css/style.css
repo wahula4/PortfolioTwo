@@ -1,54 +1,54 @@
 /* Sticky footer styles
 -------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
+  html {
+    position: relative;
+    min-height: 100%;
+  }
 
-body {
-  /* Margin bottom by footer height */
-  color: white;
-  background-color: black;
-  margin-bottom: 60px;
-  font-family: 'Open Sans', sans-serif;
-}
+  body {
+    /* Margin bottom by footer height */
+    color: white;
+    background-color: black;
+    margin-bottom: 60px;
+    font-family: 'Open Sans', sans-serif;
+  }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  line-height: 60px; /* Vertically center the text there */
-  color: white;
-  background-color: black;
-  opacity: .8;
-}
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    color: white;
+    background-color: black;
+    opacity: .8;
+  }
 
-nav {
-  font-family: 'Roboto Condensed', sans-serif;
-  background-color: black;
-  color: white;
-}
+  nav {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: black;
+    color: white;
+  }
 
-a {
-  color: white;
-}
+  a {
+    color: white;
+  }
 
-.social {
-  width: 40px;
-  height: 40px;
-  margin-left: 5px;
-}
+  .social {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+  }
 
-.social:hover {
-  cursor: pointer;
-  opacity: 0.8;
-}
+  .social:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
 
-.navbar-toggler-icon {
+  .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
- }
+  }
 
   /*HOME*/
   .homepage {
@@ -60,15 +60,13 @@ a {
    color: white
  }
 
- .index {
-   margin-top: 25%;
+ .bio {
+   margin-top: 10%;
  }
 
- .item:hover p.new-label span{
-   display: none;
- }
- .item:hover p.new-label:before{
-   content: 'Hola,';
+ .tabs {
+   margin-left: 20px;
+   margin-right: 20px;
  }
 
 
