@@ -10,7 +10,7 @@
     color: white;
     background-color: black;
     margin-bottom: 60px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Bitter', serif;
   }
 
   .footer {
@@ -33,6 +33,10 @@
 
   a {
     color: white;
+  }
+
+  a:hover {
+    color: #73D97D;
   }
 
   .social {
@@ -148,7 +152,7 @@
 
   .panel-text {
     padding: 15px 15px 5px 15px;
-    font-size: 13px;
+    font-size: 14px;
     margin-bottom: 0;
   }
 
